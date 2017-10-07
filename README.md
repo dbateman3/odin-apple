@@ -1,0 +1,2 @@
+README
+This project is to focus on design elements and working with backgrounds. This project can be found on the Odin Project's website here: https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients
