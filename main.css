@@ -73,6 +73,7 @@ a {
 }
 /* Header */
 #header {
+	
 	position: relative;
 	top: 18px;
 	height: 36px;
@@ -83,6 +84,7 @@ a {
 	box-shadow: rgba(0, 0, 0, 0.3);
 	font: 12px/18px "Lucida Grande";
 	text-align: center;
+	z-index: 9999;
 	/*display: block;
 	position: relative;
 	top: 18px;
@@ -114,6 +116,7 @@ a {
 	width: 100px;
 	padding-top: 9px;
 	box-shadow: 1px 0 0 0 #888;
+
 	/*border: solid white;
 	border-width: 0 1px 0 0;
 	display: inline-block;
@@ -150,6 +153,7 @@ a {
 	/*border-width: 0 2px 0 0;
 	border-radius: 4px 0 0 4px;*/
 	border: 0;
+	box-shadow: 0;
 }
 
 
@@ -158,6 +162,29 @@ a {
 
 
 /* billboard */
+#billboard {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 292px;
+	left: 0;
+	overflow: hidden;
+}
+
+#billboard #verse {
+	display: block;
+	position: absolute;
+	right: auto;
+	left: 50%;
+	margin-left: -720px;
+	top: 0;
+	bottom: 0;
+	background-image: url("http://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
+	background-position: 50% 100%;
+	background-repeat: no-repeat;
+	width: 1440px;
+	z-index: -1;
+}
 
 
 
