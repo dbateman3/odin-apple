@@ -186,6 +186,32 @@ a {
 	z-index: -1;
 }
 
+#billboard #verse .header {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 18%;
+	
+	margin-top: -170px;
+	padding: 50px 0;
+}
+
+#billboard #verse .title {
+	margin-bottom: -9px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+#billboard #verse .center {
+	display: block;
+	margin-top: 20px;
+	position: relative;
+	overflow: hidden;
+	height: 31px;
+}
+
 
 
 
