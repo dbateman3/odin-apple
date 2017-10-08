@@ -212,6 +212,44 @@ a {
 	height: 31px;
 }
 
+#promos {
+	/*display: inline-block;
+	position: relative;
+	
+	
+	
+	height: 200px;*/
+	height: 200px;
+}
+
+#promos ul {
+	display: inline;
+	overflow: hidden;
+	height: 200px;
+	/*position: relative;
+	
+	margin: 0 auto;
+	
+	height: 200px;
+	text-align: center;
+	list-style: none;*/
+}
+
+#promos ul li {
+	display: inline;
+	position: relative;
+	top: 500px;
+	overflow: hidden;
+	height: 200px;
+	/*position: absolute;
+	
+	display: inline-block;*/
+}
+
+#promos ul li img {
+	
+}
+
 
 
 
