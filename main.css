@@ -55,13 +55,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background: #fff;
-	/*position: relative;
-	
-	min-width: 1024px;
-	height: 100%;
-	background: #fff;
-	margin: 0;
-	padding: 0;*/
+	font: 12px/18px "Lucida Grande";
 }
 
 ul {
@@ -71,6 +65,8 @@ ul {
 a {
 	color: #fff;
 }
+
+
 /* Header */
 #header {
 	
@@ -85,28 +81,10 @@ a {
 	font: 12px/18px "Lucida Grande";
 	text-align: center;
 	z-index: 9999;
-	/*display: block;
-	position: relative;
-	top: 18px;
-	height: 36px;
-	margin: auto;
-	width: 980px;
-	text-align: left;
-	font: 12px/18px "Lucida Grande";
-	
-	background: black;
-	border-radius: 4px;
-	box-shadow: rgba(0,0,0,0.3);*/
 }
 
 #header #navbar {
 	height: 36px;
-	/*position: relative;
-	top: 0;
-	float: left;
-	width: 980px;
-	height: 36px;
-	table-layout: fixed;*/
 }
 
 #header #navbar li {
@@ -116,15 +94,6 @@ a {
 	width: 100px;
 	padding-top: 9px;
 	box-shadow: 1px 0 0 0 #888;
-
-	/*border: solid white;
-	border-width: 0 1px 0 0;
-	display: inline-block;
-	width: 105.63px;
-	height: 36px;
-	margin: 0;
-	overflow: hidden;
-	outline: none;*/
 }
 
 #header #navbar li a {
@@ -132,32 +101,17 @@ a {
 	text-decoration: none;
 	height: 36px;
 	width: 100px;
-	
-	/*display: block;
-	float: left;
-	text-decoration: none;
-	border-width: 0 2px 0 0;
-	border-style: solid;*/
 }
 
 #header #navbar li a span {
 	width: 100px;
 	height: 36px;
-	/*display: block;
-	width: 105.63px;
-	height: 36px;
-	margin: auto;*/
 }
 
 #header #navbar li:last-child {
-	/*border-width: 0 2px 0 0;
-	border-radius: 4px 0 0 4px;*/
 	border: 0;
 	box-shadow: 0;
 }
-
-
-
 
 
 
@@ -212,53 +166,67 @@ a {
 	height: 31px;
 }
 
+/* Promo Banner */
+
 #promos {
-	/*display: inline-block;
-	position: relative;
-	
-	
-	
-	height: 200px;*/
+	position: absolute;
+	display: block;
+	z-index: 1;
+	bottom: 90px;
+	overflow: hidden;
+	width: 100%;
 	height: 200px;
+	margin: 0;
+	padding: 0;
 }
 
 #promos ul {
-	display: inline;
+	position: relative;
+	z-index: 1;
 	overflow: hidden;
-	height: 200px;
-	/*position: relative;
-	
 	margin: 0 auto;
-	
+	min-width: 1024px;
+	width: 100%;
+	max-width: 1440px;
 	height: 200px;
 	text-align: center;
-	list-style: none;*/
+	list-style: none outside;
+	padding: 0;
 }
 
 #promos ul li {
-	display: inline;
 	position: relative;
-	top: 500px;
+	z-index: 1;
+	float: left;
 	overflow: hidden;
+	margin: 0;
+	width: 25%;
 	height: 200px;
-	/*position: absolute;
-	
-	display: inline-block;*/
+	padding: 0;
 }
 
-#promos ul li img {
-	
+#promos ul li a {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: block;
+	overflow: hidden;
+}
+
+#promos ul li a img {
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	margin-left: -182px;
+	border: 0;
 }
 
 
 
 
-/* promos */
 
 
 
-
-
-
-
-/* footer */ 
